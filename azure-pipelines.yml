@@ -15,7 +15,7 @@ steps:
   displayName: build and push
   inputs:
     containerRegistry: 'dockerhub-dyuryagin'
-    repository: 'mynginx'
+    repository: 'dyuryagin/mynginx'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: '0.4'
